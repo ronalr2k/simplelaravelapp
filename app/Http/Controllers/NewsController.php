@@ -5,7 +5,7 @@ use miaplicacion\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class TrainingController extends Controller {
+class NewsController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -14,7 +14,7 @@ class TrainingController extends Controller {
 	 */
 	public function index()
 	{
-		return view('frontend/frontpage');
+	    return view('frontend/news');
 	}
 
 	/**

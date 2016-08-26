@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: trainingrhc
-        psr4_prefix: trainingrhc
+        namespace: miaplicacion
+        psr4_prefix: miaplicacion
         src_path: app

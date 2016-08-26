@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Providers;
+<?php namespace miaplicacion\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +16,7 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
-				$command, 'trainingrhc\Commands', 'trainingrhc\Handlers\Commands'
+				$command, 'miaplicacion\Commands', 'miaplicacion\Handlers\Commands'
 			);
 		});
 	}

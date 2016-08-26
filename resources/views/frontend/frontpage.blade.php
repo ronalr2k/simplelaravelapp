@@ -1,36 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href={{asset("css/bootstrap/css/bootstrap.min.css")}} rel="stylesheet">
-    <script  src={{asset("css/bootstrap/js/bootstrap.min.js")}} ></script>
-    <link href={{asset("css/styles.css")}} rel="stylesheet">
-</head>
-<body>
-
-  <div id="menu"  class="container-fluid">
-    <div class="container">
-        <div  class="row">
-            <div class="col-md-4 navbar-header">
-                <img src="{{asset('img/logo.png')}}">
-            </div>
-            <div class="col-md-4 navbar-right">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">HOME</a></li>
-                    <li><a href="#">NEWs</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-   </div>
+@extends('layout.master')
+@section('content')
     <div class="container-fluid">
         <div class="row">
-            <div id="main-logo" style="background-image: url({{asset("img/back.jpg")}})">
-
+            <div class="main-logo" style="background-image: url({{asset("img/back.jpg")}})">
+                <div class="slogan col-md-3">
+                    <h4>ertyutyui</h4>
+                    <h4>wrttyeuuio</h4>
+                    <h4>eqwrtytryu</h4>
+                </div>
             </div>
 
         </div>
@@ -43,7 +20,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div id="trian" class=" row col-md-12">
+        <div class="trian row">
 
         </div>
 
@@ -74,7 +51,7 @@
             </div>
         </div>
     </div>
-    <div id="carusel" class="container-fluid">
+    <div class=" carusel container-fluid">
         <div  class="container">
             <div class="row text-center">
                 <h2><strong>Some of Our Work</strong></h2>
@@ -104,22 +81,4 @@
             </div>
         </div>
     </div>
-<footer  id="foot" class="container-fluid">
-    <div class="container">
-        <div class="col-md-4 col-sm-4">
-            <h2> ABOUT US</h2>
-            <p>
-                A continuación, debes editar el archivo Homestead.yaml. En este archivo, puedes configurar la ruta de tu SSH Key pública, así como las carpetas que quieres compartir entre tu máquina principal y la máquina virtual Homestead.
-            </p>
-        </div>
-        <div class="col-md-4">
-
-        </div>
-        <div class="col-md-4">
-            <img src="img/logo.png">
-        </div>
-
-    </div>
-</footer>
-</body>
-</html>
+@endsection

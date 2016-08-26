@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Http\Controllers;
+<?php namespace miaplicacion\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesCommands;
 use Illuminate\Routing\Controller as BaseController;

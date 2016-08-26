@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Console;
+<?php namespace miaplicacion\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
@@ -11,7 +11,7 @@ class Kernel extends ConsoleKernel {
 	 * @var array
 	 */
 	protected $commands = [
-		'trainingrhc\Console\Commands\Inspire',
+		'miaplicacion\Console\Commands\Inspire',
 	];
 
 	/**

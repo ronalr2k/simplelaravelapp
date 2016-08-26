@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Events;
+<?php namespace miaplicacion\Events;
 
 abstract class Event {
 

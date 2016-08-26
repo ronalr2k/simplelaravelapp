@@ -1,6 +1,6 @@
-<?php namespace trainingrhc\Services;
+<?php namespace miaplicacion\Services;
 
-use trainingrhc\User;
+use miaplicacion\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

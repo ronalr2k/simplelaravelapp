@@ -1,6 +1,6 @@
-<?php namespace trainingrhc\Http\Controllers\Auth;
+<?php namespace miaplicacion\Http\Controllers\Auth;
 
-use trainingrhc\Http\Controllers\Controller;
+use miaplicacion\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\PasswordBroker;
 use Illuminate\Foundation\Auth\ResetsPasswords;

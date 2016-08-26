@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Exceptions;
+<?php namespace miaplicacion\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

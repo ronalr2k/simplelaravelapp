@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Commands;
+<?php namespace miaplicacion\Commands;
 
 abstract class Command {
 

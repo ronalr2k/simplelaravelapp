@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Console\Commands;
+<?php namespace miaplicacion\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

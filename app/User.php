@@ -1,4 +1,4 @@
-<?php namespace trainingrhc;
+<?php namespace miaplicacion;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

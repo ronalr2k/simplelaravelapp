@@ -16,7 +16,7 @@
 			"database"
 		],
 		"psr-4": {
-			"trainingrhc\\": "app/"
+			"miaplicacion\\": "app/"
 		}
 	},
 	"autoload-dev": {

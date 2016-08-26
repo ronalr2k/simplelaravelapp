@@ -1,8 +1,107 @@
-#main-logo {
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+.carusel{
+    background-color: rgba(205, 209, 220, 0.91);;
+}
+.main-logo {
     height: 343px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+}
+.menu{
+    background-color: rgba(205, 209, 220, 0.91);
 }
 .filaTres {
     background-color: yellow;
 }
+.meter{
+    background-color: yellow;
+    height: 200px;
+    width: 100%;
+}
+
+.pie{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width:  1400px) {
+    /* For mobile phones: */
+    .trian{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 50px 700px 0 700px;
+        border-color: #c4ff00 transparent transparent transparent;
+
+    }
+}
+@media (min-width:  1200px) {
+    /* For mobile phones: */
+    .trian{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 50px 600px 0 600px;
+        border-color: #ffff00 transparent transparent transparent;
+
+    }
+}
+.foot{
+    background-color: #010101;
+    color: white;
+}
+.menu{
+}
+.slogan h4{
+    text-transform: uppercase;
+        color: white;
+    font-weight: 800;
+    line-height: 1em;
+    font-family: lato;
+}
+.slogan h4:first-child{
+    font-weight: normal;
+    color: rgba(170, 173, 170, 0.84);
+}
+.slogan{
+    background-color: rgba(15, 15, 15, 0.57);
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+#eldos li{
+    list-style: none;
+    border-bottom: 1px solid rgba(125, 125, 125, 0.95);
+}
+.foot h3{
+    font-weight:900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

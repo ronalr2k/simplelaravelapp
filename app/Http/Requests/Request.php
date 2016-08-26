@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Http\Requests;
+<?php namespace miaplicacion\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

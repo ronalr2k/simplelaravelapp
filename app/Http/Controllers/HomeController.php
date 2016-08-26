@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Http\Controllers;
+<?php namespace miaplicacion\Http\Controllers;
 
 class HomeController extends Controller {
 

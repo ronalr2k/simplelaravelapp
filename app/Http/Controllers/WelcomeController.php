@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Http\Controllers;
+<?php namespace miaplicacion\Http\Controllers;
 
 class WelcomeController extends Controller {
 
@@ -33,8 +33,5 @@ class WelcomeController extends Controller {
         return view('welcome');
     }
 
-    public function isma()
-    {
-        return view('frontend/home');
-    }
+
 }

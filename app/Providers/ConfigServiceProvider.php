@@ -1,4 +1,4 @@
-<?php namespace trainingrhc\Providers;
+<?php namespace miaplicacion\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
